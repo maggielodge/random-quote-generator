@@ -31,3 +31,4 @@ project 1 - A Random Quote Generator
 ***/
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
+console.log('test');
