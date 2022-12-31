@@ -2,7 +2,7 @@
 Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
 ******************************************/
-console.log('test');
+
 
 // For assistance: 
   // Check the "Project Resources" section of the project instructions
@@ -32,3 +32,4 @@ console.log('test');
 ***/
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
+console.log('test');
