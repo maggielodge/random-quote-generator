@@ -10,7 +10,34 @@ project 1 - A Random Quote Generator
 /*** 
  * `quotes` array 
 ***/
-
+let quotes = [
+  {
+    quote1: "There's no crying in baseball!",
+    source1: "Jimmy Dugan",
+    citation1: "A Leage of Their Own"
+  },
+  {
+    quote2: 'You sit on a throne of lies',
+    source2: 'Buddy the elf',
+    year2: '2003'
+  },
+  {
+    quote3: "Show me the money!",
+    source3: "Rod Tidwell",
+    citation3: "Jerry Maguire"
+  },
+  {
+    quote4: "I'm not like a regular mom, I'm a cool mom.",
+    source4: "Mrs. George",
+    citation4:"Mean Girls"
+  },
+  {
+    quote5: "It's not a man purse. It's called a satchel. Indiana Jones wears one.",
+    source5: "Alan",
+    citation5: "The Hangover"
+  }
+];
+//console.log(quotes);
 
 
 /***
@@ -31,4 +58,3 @@ project 1 - A Random Quote Generator
 ***/
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
-console.log('test');
